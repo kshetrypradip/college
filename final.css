@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(eer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  background-color: transparent;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: rgba(244, 244, 244, 0.5); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: rgb(4, 3, 3);
+  font-size: 17px; 
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  color: #8c8b8b;
+}
+
+::placeholder {
+  color: #8c8b8b;
+  font-size: 17px;
+}
+
+input:hover {
+  border: 1px solid #0078d4;
+  box-shadow: 0 0 5px rgba(0, 120, 212, 0.5);
+}
+
+button {
+  background-color: #0078d4;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 17px;
+}
+
+button:hover {
+  background-color: #005a9e;
+}
+
+.admin-login,
+.sign-in-link {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.sign-in-link a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.sign-in-link a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-container {
+    max-width: 100%;
+  }
+}
